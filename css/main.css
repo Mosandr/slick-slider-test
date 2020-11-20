@@ -90,19 +90,6 @@
   border: 1px solid transparent;
 }
 
-.slick-slide {
-  transition: all ease-in-out 0.3s;
-  opacity: 0.2;
-}
-
-.slick-active {
-  opacity: 0.5;
-}
-
-.slick-current {
-  opacity: 1;
-}
-
 *,
 *::before,
 *::after {
