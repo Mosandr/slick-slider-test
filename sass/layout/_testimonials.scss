@@ -32,6 +32,8 @@
 
   &__list {
     display: flex;
+    background: #ffffff;
+    box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
   }
 
   &__prev-btn {
@@ -96,8 +98,9 @@
   padding-bottom: 30px;
   margin-bottom: 20px;
 
-  background: #ffffff;
-  box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
+  &:focus {
+    outline: none;
+  }
 
   @media screen and (min-width: 768px) {
     display: flex;
@@ -109,11 +112,11 @@
   }
 
   @media screen and (min-width: 1344px) {
+    width: 1090px;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 82px;
     padding-right: 112px;
-
     margin-bottom: 40px;
   }
 
